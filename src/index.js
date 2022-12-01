@@ -14,9 +14,7 @@ const reducer = (state = 0, action) => {
   }
 }
 
-const inc = () => ({type: 'INC'});
-const dec = () => ({type: 'DEC'});
-const rnd = (value) => ({type: 'RND', value});
+
 
 const store = createStore(reducer);
 
