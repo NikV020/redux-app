@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 const Counter = (counter, inc, dec, rnd) => {
     return (
@@ -11,4 +12,4 @@ const Counter = (counter, inc, dec, rnd) => {
     );
 }
 
-export default Counter; 
+export default connect()(Counter); 
